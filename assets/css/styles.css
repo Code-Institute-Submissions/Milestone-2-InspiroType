@@ -25,7 +25,7 @@ body {
     border-radius: .5rem;
     width: 700px;
     height: 300px;
-    max-width: 90%;
+    max-width: 90%; 
 }
 
 .timer {
@@ -37,6 +37,8 @@ body {
 
 .quote-display {
     margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
 }
 
 .quote-input {
@@ -46,7 +48,9 @@ body {
     height: 10rem; /* Gives enough room for longer quotes */
     margin: auto; /* Ensures input area always stays centered */
     resize: none; /* Input box can't be resized by user */
-    padding: .5rem 1rem;
+    padding: .5rem 1rem; 
+    font-size: 1rem;
+    border-radius: .5rem;
 }
 
 .quote-input:focus {
