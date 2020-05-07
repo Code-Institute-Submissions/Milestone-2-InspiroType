@@ -4,6 +4,7 @@
 
 body {
     background-image: url(../images/coffee.jpg);
-    background-position: left;
-    
+    background-position: left; /* This is how I can move photo left/right - must be below bg-size to work!! */
+    background-size: cover;
 }
+
