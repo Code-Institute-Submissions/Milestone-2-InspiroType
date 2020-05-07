@@ -4,8 +4,8 @@
 
 body {
     background-image: url(../images/coffee.jpg);
-    background-position: left; /* This is how I can move photo left/right - must be below bg-size to work!! */
-    background-size: cover;
+    background-position: left; 
+   /* background-size: cover;  Alternate use of photo, maybe too busy but worth keeping idea */
 }
 
 /* #experiment {
@@ -14,4 +14,10 @@ body {
 
 #asdf {
     max-width: 60%;
+}
+
+#form {
+    width: 100%;
+    border: 2px solid rgb(158, 31, 31);
+    
 }
