@@ -1,7 +1,6 @@
 let quotes = [
 
-'“Life must be understood backward. But it must be lived forward” – Søren Kierkegaard',
-'“Only one man ever understood me, and he didn’t understand me” – G. W. F. Hegel',
+'“Life must be understood backward. But it must be lived forward” – Soren Kierkegaard',
 '“The greater the difficulty, the more glory in surmounting it” – Epicurus',
 '“That man is wisest who, like Socrates, realizes that his wisdom is worthless” – Plato',
 '“The function of prayer is not to influence God, but rather to change the nature of the one who prays” – Søren Kierkegaard',

@@ -8,3 +8,10 @@ body {
     background-size: cover;
 }
 
+/* #experiment {
+    background: transparent !important;
+} */
+
+#asdf {
+    max-width: 60%;
+}
