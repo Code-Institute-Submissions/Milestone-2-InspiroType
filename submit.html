@@ -65,19 +65,19 @@
     <section>
     <div class="container">
     <div>
-    <h4 class="display-4">Submit Your Favourite Quote</h4>
+    <h4 class="display-4">Submit Your Favourite Quote:</h4>
     </div>
-
-        <div class="row bg-color-contact justify-content-center col-6">
+        <div class="container">
+        <div class="row" id="form-div">
             
-            <div>
+            
                 <form id="form"  onsubmit="return sendMail(this);">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="userquote" class="form-control" id="userquote" placeholder="Enter Quote Here..." required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Submit</button>
+                    <button type="submit" class="btn btn-secondary">Submit</button>
                 </form>
-            </div>
+            
         </div>
     </div>
     </section>

@@ -19,7 +19,7 @@
             <div class="row">
 
                 
-                <div class="col logo">
+                <div class="logo">
                     <a href="index.html"> <h1 class="text-center display-1 text-dark">InspiroType</h1></a>
                 </div>
 
@@ -56,17 +56,29 @@
     <section>
 
     
-    <div id="experiment" class="container border bg-light" style="height:200px">
+    <div id="main-container" class="container border bg-light text-center mt-4 rounded" style="min-height:200px">
+    <div class="row">
     
- 
- <p class="" id="quoteDisplay"></p>
+ <div class="text-center mx-auto mb-5">
+ <p class="pt-4 pb-4" id="quoteDisplay"></p>
 <button onclick="newQuote()">New Quote</button>
-    
- <div class="text-center"> <textarea class="" id="" >quote</textarea></div>
-    
-    
+ </div>
 </div>
- 
+<div class="row">
+ <div class="mt-5 mx-auto" id="userDiv">
+  <textarea class="user-input p-3 rounded" id="userInput" onkeydown="newQuote()"  placeholder="Start Typing...."  autofocus></textarea>
+  
+  </div>
+  
+ </div> 
+
+ <div class="row">
+    <div class="timer mx-auto text-center" id="timer">0</div>
+</div>
+
+
+</div>
+
 
 
     </section>
