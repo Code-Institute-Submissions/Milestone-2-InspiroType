@@ -68,7 +68,6 @@ function myStopFunction() {
         
 
 function spellCheck() {
-   // alert("Spellcheck");
     // get the input from the text area (that the user has typed)
     let userInputText = document.getElementById('userInput').value
     console.log(userInputText);
@@ -77,21 +76,15 @@ function spellCheck() {
     console.log(randomQuoteText);
     // if they're equal, do something (for starters, alert "correct!")
     if (userInputText === randomQuoteText) {
-        alert("Correct");
+        newQuote();
+        document.getElementById('userInput').value = "";
+       // alert("Correct");
     }
 
-        /*    let userText = JSON.stringify(userInput);
-            let randomQuote = JSON.stringify(randomQuote);
-
-            if (userText === displayText) {
-                document.getElementById('randomQuote').innerText = newQuote();
-                document.getElementById('userInput').value = eraseText();
-                alert("Sentences Match");
-            };  */
-}
 
 function stopAndClearTimer() {
-    // TODO implement and use
+    myStopFunction();
+    document.getElementById('timer').innerText = "00.00";
 }
 
 
