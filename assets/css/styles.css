@@ -8,8 +8,8 @@ body {
     background-size: cover;  
 }
 
-#main-heading {
-    text-decoration: none;
+#site-name:hover {
+    color: antiquewhite;
 }
 
 
