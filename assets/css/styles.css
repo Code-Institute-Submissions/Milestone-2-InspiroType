@@ -8,8 +8,12 @@ body {
     background-size: cover;  
 }
 
-#site-name:hover {
-    color: antiquewhite;
+.site-name {
+    color: rgb(41, 43, 44);
+}
+
+.site-name:hover {
+    color: rgb(113, 118, 121);
 }
 
 
