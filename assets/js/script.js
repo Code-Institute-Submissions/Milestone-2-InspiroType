@@ -65,7 +65,9 @@ function myStopFunction() {
     clearInterval(interval);
     timerRunning = false;
 }
-        
+
+let quoteTracker = 0;
+
 
 function spellCheck() {
     // get the input from the text area (that the user has typed)
@@ -76,17 +78,24 @@ function spellCheck() {
     console.log(randomQuoteText);
     // if they're equal, do something (for starters, alert "correct!")
     if (userInputText === randomQuoteText) {
+        quoteTracker++;
+        if (quoteTracker > 1) {
         newQuote();
         document.getElementById('userInput').value = "";
        // alert("Correct");
     }
-
+}
 
 function stopAndClearTimer() {
     myStopFunction();
     document.getElementById('timer').innerText = "00.00";
 }
 
+function gameComplete() {
+    alert("Game Complete!!!!");
+    //current time = timer at gameComplete
+    stopAndClearTimer();
+}
 
 
 
