@@ -15,17 +15,19 @@
   </head>
   <body>
   <header>
-  <div class="container-fluid">
-            <div class="row">
+  <div class="container-fluid page-heading mx-auto">
+            
+    <div class="row">
+    <div class="col logo">
+    <a href="index.html"> 
+    <h1 class="text-center display-1 text-dark">InspiroType</h1>
+    </a>
+    </div>            
+    </div>
 
-                
-                <div class="logo">
-                    <a href="index.html"> <h1 class="text-center display-1 text-dark">InspiroType</h1></a>
-                </div>
-
-                
-
-                <nav class="navbar navbar-expand-md navbar-light col-4 col-md-12 ">
+                <div class="row">
+                <div class="col">
+                <nav class="navbar navbar-expand-md navbar-light">
                     <button class="navbar-toggler" id="hamburger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -45,36 +47,46 @@
                         </ul>
                     </div>
                 </nav>
-
-            </div>
-
-  </div>
+        </div>
+    </div>
+</div>
 
     
 
   </header>
     <section>
-
+    <div class="container text-center">
     
-    <div id="main-container" class="container border bg-light text-center mt-4 rounded" style="min-height:200px">
-    <div class="row">
-    
- <div class="text-center mx-auto mb-5">
- <p class="pt-4 pb-4" id="quoteDisplay"></p>
-<button onclick="newQuote()">New Quote</button>
- </div>
-</div>
 <div class="row">
- <div class="mt-5 mx-auto" id="userDiv">
-  <textarea class="user-input p-3 rounded" id="userInput" onkeydown="newQuote()"  placeholder="Start Typing...."  autofocus></textarea>
-  
-  </div>
-  
- </div> 
+<div class="col my-5">
 
- <div class="row">
-    <div class="timer mx-auto text-center" id="timer">0</div>
+ <p class="random-quote bg-light py-5" id="randomQuote">Click Below to Start</p>
+
 </div>
+</div>
+
+
+<div class="row">
+ <div class="col">
+  
+  <textarea class="user-input pt-2 pl-3"
+    id="userInput"
+    onclick="newQuote()"
+    onkeyup="handleKeyUp()">
+</textarea>
+
+  </div>
+  </div> 
+
+
+<div class="row">
+<div class="col my-2 py-2">
+
+<span id="timer">00:00</span> s
+
+</div>
+</div>
+
 
 
 </div>

@@ -21,17 +21,19 @@
   </head>
   <body>
   <header>
-  <div class="container-fluid">
-            <div class="row">
+  <div class="container page-heading mx-auto">
+            
+    <div class="row">
+    <div class=" col logo">
+    <a href="index.html"> 
+    <h1 class="text-center display-1 text-dark">InspiroType</h1>
+    </a>
+    </div>            
+    </div>
 
-                
-                <div class="col logo">
-                    <a href="index.html"> <h1 class="text-center display-1 text-dark">InspiroType</h1></a>
-                </div>
-
-                
-
-                <nav class="navbar navbar-expand-md navbar-light col-4 col-md-12 ">
+                <div class="row">
+                <div class="col">
+                <nav class="navbar navbar-expand-md navbar-light">
                     <button class="navbar-toggler" id="hamburger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -43,32 +45,34 @@
                             <li class="nav-item underline">
                                 <a class="nav-link" href="help.html">Help</a>
                             </li>
-                        
-                            <li class="nav-item active underline ">
+                            
+                            <li class="nav-item active underline">
                                 <a class="nav-link" href="submit.html">Submit<span class="sr-only">(current)</span></a>
                             </li>
 
                         </ul>
                     </div>
                 </nav>
-
-            </div>
-
-  
+        </div>
+    </div>
+</div>
 
     
 
   </header>
-    <section>
-
-   
-    <section>
+    
+<section>
     <div class="container">
-    <div>
+   
+    <div class ="row">
+    <div class="col text-center mx-auto">
     <h4 class="display-4">Submit Your Favourite Quote:</h4>
     </div>
-        <div class="container">
-        <div class="row" id="form-div">
+    </div>   
+        
+        
+        <div class="row">
+        <div class="col" id="form-div">
             
             
                 <form id="form"  onsubmit="return sendMail(this);">
@@ -79,8 +83,12 @@
                 </form>
             
         </div>
+        </div>
+    
+    
+    
     </div>
-    </section>
+  
 
 
 

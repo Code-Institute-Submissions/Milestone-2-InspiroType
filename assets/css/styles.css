@@ -3,23 +3,15 @@
  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap:100,200,300,400,500,600,700|Roboto+Mono:300&display=swap:100,200,300,400,500,600,700|');
 
 body {
-    
+    font-size: 1.4rem;
     background-image: url(../images/coffee.jpg);
     background-position: left; 
    /* background-size: cover;  Alternate use of photo, maybe too busy but worth keeping idea */
 }
 
-/* #experiment {
-    background: transparent !important;
-} */
-#userDiv {
-    width: 90%;
-}
-
 .user-input {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
-    font-size: 1.4rem;
     border: 2px solid rgb(209, 108, 108);
     outline: none;
     height: 10rem;
@@ -28,6 +20,8 @@ body {
     padding: 0;
     width: 90%
 } 
+
+
 
 .user-input:focus {
     border-color: black;  /* Web Dev Simplified */
