@@ -5,9 +5,13 @@
 body {
     font-size: 1.4rem;
     background-image: url(../images/coffee.jpg);
-    background-position: left; 
-   /* background-size: cover;  Alternate use of photo, maybe too busy but worth keeping idea */
+    background-size: cover;  
 }
+
+#main-heading {
+    text-decoration: none;
+}
+
 
 .user-input {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -20,8 +24,6 @@ body {
     padding: 0;
     width: 90%
 } 
-
-
 
 .user-input:focus {
     border-color: black;  /* Web Dev Simplified */
@@ -40,8 +42,7 @@ body {
 /* ----------   Submit.html  --------------- */
 
 #form {
-    width: 70%; 
-    border: 2px solid rgb(158, 31, 31);  
+    width: 70%;  
 }
 
 #form-div {

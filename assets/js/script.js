@@ -45,12 +45,12 @@ function handleKeyUp() {
     spellCheck();
 }
 
-let timerStarted = false;
-
+let timerRunning = false;
+let interval;
 
 function startTimer() {
-    if (!timerStarted) {
-        timerStarted = true;
+    if (!timerRunning) {
+        timerRunning = true;
         var startTime = Date.now();
 
 // stack overflow
@@ -61,8 +61,9 @@ function startTimer() {
     }
 }
 
-function eraseText() {
-    document.getElementById('userInput').innerText = "";
+function myStopFunction() {
+    clearInterval(interval);
+    timerRunning = false;
 }
         
 
@@ -91,4 +92,13 @@ function spellCheck() {
 
 function stopAndClearTimer() {
     // TODO implement and use
+}
+
+
+
+
+
+
+function submitQuote() {
+    alert("SUCCESS - Thank You");
 }
