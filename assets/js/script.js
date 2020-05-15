@@ -66,8 +66,6 @@ function myStopFunction() {
     timerRunning = false;
 }
 
-// only two difficult problems
-// naming things, cache invalidation, and off-by-one errors
 
 let tracker = 0;
 

@@ -1,17 +1,27 @@
 /* Global Settings */
 
- @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap:100,200,300,400,500,600,700|Roboto+Mono:300&display=swap:100,200,300,400,500,600,700|');
-
 @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=IBM+Plex+Serif:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 
 body {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
+   background-image: url(../images/coffee.jpg);
+   background-position: 10% 15%;
+   background-size: cover;
 }
 
-.box {
-   background-image: url(../images/coffee-table.jpg);
-   background-position: cover;
+@media screen and (max-width: 573px) {
+    body {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 573px) {
+    .site-name {
+        font-size: 1.6rem;
+    }
 }
 
 
@@ -19,10 +29,15 @@ body {
 .site-name {
     font-family: 'IBM Plex Serif', serif;
     color: rgb(41, 43, 44);
+    text-shadow: 2px 2px 4px rgb(161, 160, 160)
 }
 
 .site-name:hover {
     color: rgb(113, 118, 121);
+}
+
+#randomQuote {
+    font-family: 'Noto Serif', serif;
 }
 
 
@@ -43,16 +58,26 @@ body {
 }
 
 
-
-#asdf {
-    max-width: 60%;
-}
-
-
 /* --------------- Index.html ----------------- */
 
 
+/* ----------------Help.html -------------------*/
+@media screen and (max-width: 573px) {
+    #how-to-play {
+        font-size: 1.3rem;
+    }
+}
+
+
 /* ----------   Submit.html  --------------- */
+
+@media screen and (max-width: 573px) {
+    #submit-message {
+        font-size: 1.2rem;
+    }
+}
+
+
 
 #form {
     width: 70%;  
