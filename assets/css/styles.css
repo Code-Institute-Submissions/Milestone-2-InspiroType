@@ -2,13 +2,22 @@
 
  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap:100,200,300,400,500,600,700|Roboto+Mono:300&display=swap:100,200,300,400,500,600,700|');
 
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=IBM+Plex+Serif:wght@100;300&display=swap');
+
+
 body {
     font-size: 1.4rem;
-    background-image: url(../images/coffee.jpg);
-    background-size: cover;  
 }
 
+.box {
+   background-image: url(../images/coffee-table.jpg);
+   background-position: cover;
+}
+
+
+
 .site-name {
+    font-family: 'IBM Plex Serif', serif;
     color: rgb(41, 43, 44);
 }
 
