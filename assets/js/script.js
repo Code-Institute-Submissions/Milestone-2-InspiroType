@@ -34,7 +34,7 @@ let easyQuotes = [
 
 let quotesForCurrentRun = [
 
-]
+];
 
 function newQuote() {
     let randomNum = Math.floor(Math.random() * (easyQuotes.length));
@@ -67,7 +67,7 @@ function myStopFunction() {
 }
 
 
-let tracker = 0;
+let quotesCompletedThisRound = 0;
 
  function spellCheck() {
      // get the input from the text area (that the user has typed)
@@ -76,10 +76,10 @@ let tracker = 0;
      let randomQuoteText = document.getElementById('randomQuote').innerText
      // if they're equal, do something (for starters, alert "correct!")
      if (userInputText === randomQuoteText) {
-         tracker++;
+         quotesCompletedThisRound++;
          quotesForCurrentRun.push(userInputText);
          console.log(quotesForCurrentRun);
-         if (tracker > 1) {
+         if (quotesCompletedThisRound > 1) {
             gameComplete();
          }
          newQuote();
@@ -101,6 +101,8 @@ function gameComplete() {
     let wordsPerMinute = Math.round(numberOfWordsInTypedSentences / minutesElapsed);
    alert(`Your Typing Speed is ${wordsPerMinute} words per minute`);
    stopAndClearTimer();
+   quotesCompletedThisRound = 0;
+   quotesForCurrentRun = [];
 }
 
 function stopAndClearTimer() {
