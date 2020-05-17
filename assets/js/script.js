@@ -3,8 +3,8 @@ const userInput = document.getElementById('userInput');
 const gameTimer = document.getElementById('timer');
 
 let hardQuotes = [
-    '"Test!!"',
-    /* '“Life must be understood backward. But it must be lived forward” – Soren Kierkegaard',
+    '*** Unfortunately this level is not available at the moment but it will be added very soon<br> - Thanks for your patience ***',
+    /* '“Life must be understood backward. But it must be lived forward”.  -Soren Kierkegaard',
     '“The greater the difficulty, the more glory in surmounting it” – Epicurus',
     '“That man is wisest who, like Socrates, realises that his wisdom is worthless” – Plato',
     '“The function of prayer is not to influence God, but rather to change the nature of the one who prays” – Soren Kierkegaard',
@@ -20,8 +20,7 @@ let hardQuotes = [
     */
 ];
 let easyQuotes = [
-    'test'
-    /* 'life must be understood backward but it must be lived forward',
+    'life must be understood backward but it must be lived forward',
      'the greater the difficulty the more glory in surmounting it',
      'that man is wisest who like socrates realises that his wisdom is worthless',
      'the function of prayer is not to influence god but rather to change the nature of the one who prays',
@@ -31,7 +30,7 @@ let easyQuotes = [
      'the unexamined life is not worth living',
      'without music life would be a mistake',
      'go to heaven for the climate and hell for the company',
-     'how wonderful it is that nobody need wait a single moment before starting to improve the world', */
+     'how wonderful it is that nobody need wait a single moment before starting to improve the world',
 ];
 
 let quotesForCurrentRun = [];
@@ -124,5 +123,5 @@ function stopAndClearTimer() {
 
 
 function submitQuote() {
-    alert("SUCCESS - Thank You <br> Your quote will soon be added to the collection");
+    alert("SUCCESS - Thank You. Your quote will soon be added to the game");
 }
