@@ -100,8 +100,8 @@ I tested the Email Submission form regularly throughout the process to make sure
 
 This project is hosted using GitHub pages, deployed from the master branch. The site will update automatically upon new commits to the master branch. To deploy the project correctly on GitHub pages, the landing site must he named index.html
 
-If you want run the project locally you need to clone the repository directly into your editor by writing to the terminal the following: git clone 
- 
+If you want run the project locally you need to clone the repository directly into your editor by writing to the terminal the following: git clone https://jmurrii.github.io/Milestone-2-InspiroType/
+
 
 ## Credits
 
