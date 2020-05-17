@@ -97,7 +97,7 @@ function spellCheck() {
         quotesCompletedThisRound++;
         quotesForCurrentRun.push(userInputText);
         console.log(quotesForCurrentRun);
-        if (quotesCompletedThisRound > 1) {
+        if (quotesCompletedThisRound > 4) {
             gameComplete();
         }
         newQuote();

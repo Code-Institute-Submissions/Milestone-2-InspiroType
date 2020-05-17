@@ -1,7 +1,4 @@
-// console.log("Hello");
-
-
- //Applied Code learned from the module - 'Sending Emails Using EmailJS' (Code Institute)
+//Applied Code learned from the module - 'Sending Emails Using EmailJS' (Code Institute)
 
 function sendMail(contactForm){
     emailjs.send("gmail", "inspirotype_submission_form", {
