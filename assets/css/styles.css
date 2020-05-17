@@ -9,22 +9,34 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
    background-image: url(../images/coffee.jpg);
-   background-position: 10% 15%;
    background-size: cover;
+   background-position: top;
+  
 }
 
-@media screen and (max-width: 573px) {
+@media screen and (max-width: 470px) {
+    body {
+        background-image: url(../images/cropped-coffee.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: repeat-y;
+       /* background-color: rgb(206, 198, 198); */
+    }
+}
+
+@media screen and (max-width: 768px) {
     body {
         font-size: 1rem;
     }
 }
-@media screen and (max-width: 573px) {
+
+
+
+@media screen and (max-width: 768px) {
     .site-name {
         font-size: 1.6rem;
     }
 }
-
-
 
 .site-name {
     font-family: 'IBM Plex Serif', serif;
@@ -35,6 +47,8 @@ body {
 .site-name:hover {
     color: rgb(113, 118, 121);
 }
+
+/* --------------- Index.html ----------------- */
 
 #randomQuote {
     font-family: 'Noto Serif', serif;
@@ -57,12 +71,8 @@ body {
     border-color: black;  /* Web Dev Simplified */
 }
 
-
-/* --------------- Index.html ----------------- */
-
-
 /* ----------------Help.html -------------------*/
-@media screen and (max-width: 573px) {
+@media screen and (max-width: 768px) {
     #how-to-play {
         font-size: 1.3rem;
     }
@@ -71,7 +81,7 @@ body {
 
 /* ----------   Submit.html  --------------- */
 
-@media screen and (max-width: 573px) {
+@media screen and (max-width: 768px) {
     #submit-message {
         font-size: 1.2rem;
     }

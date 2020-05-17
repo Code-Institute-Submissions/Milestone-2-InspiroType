@@ -47,6 +47,10 @@ function handleUserModeSelection(mode) {
     }
 }
 
+
+/* Followed this lesson from Free Code Camp
+https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/  */
+
 function newQuote() {
     let randomNum = Math.floor(Math.random() * (currentlySelectedQuotes.length));
     document.getElementById('randomQuote').innerHTML = currentlySelectedQuotes[randomNum];
@@ -64,6 +68,9 @@ function startTimer() {
     if (!timerRunning) {
         timerRunning = true;
         var startTime = Date.now();
+
+/* Found this timer on Stack Overflow 
+https://stackoverflow.com/questions/32307483/in-javascript-how-to-create-an-accurate-timer-with-milliseconds  */
 
         interval = setInterval(function () {
             var elapsedTime = Date.now() - startTime;
@@ -99,6 +106,12 @@ function spellCheck() {
     }
 }
 
+/* 
+Used all of these resources to work out a way to calculate words per minute
+https://www.geeksforgeeks.org/design-a-typing-speed-test-game-using-javascript/
+https://forum.level1techs.com/t/jquery-script-to-calculate-words-per-minute-script-works-on-jsfiddle-but-not-on-my-site/119083
+https://stackoverflow.com/questions/10861372/calculate-words-per-minute-in-real-time
+*/
 
 function gameComplete() {
     alert("Game Complete!!!!");
