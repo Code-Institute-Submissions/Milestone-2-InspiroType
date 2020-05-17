@@ -79,6 +79,8 @@ Although this game is designed for large screen and a physical keyboard, it work
 ### Additional Testing
 I sent the game to a number of friends / students for further feedback.
 
+I tested the Email Submission form regularly throughout the process to make sure it was working ok. 
+
 
 ### Code Validation
 
