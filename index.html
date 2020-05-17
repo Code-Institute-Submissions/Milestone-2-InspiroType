@@ -31,8 +31,12 @@
 <div class="container-fluid">
                 <div class="row">
         <div class="col mt-2">
-        <button class="btn btn-outline-dark">Easy</button>
-        <button class="btn btn-outline-dark">Hard</button>
+    <button class="btn btn-outline-dark d-none d-md-inline"  onclick="handleUserModeSelection('easy')">Easy </button>
+    <button class="btn btn-outline-dark btn-sm d-md-none "  onclick="handleUserModeSelection('easy')">Easy </button>
+     
+     
+     <button class="btn btn-outline-dark d-none d-md-inline"  onclick="handleUserModeSelection('hard')">Hard</button>
+     <button class="btn btn-outline-dark btn-sm d-md-none"  onclick="handleUserModeSelection('hard')">Hard</button>
         
 
         </div>
