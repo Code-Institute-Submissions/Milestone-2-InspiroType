@@ -1,4 +1,4 @@
-Table of Contents
+# Table of Contents
 * About
     * Why This Project?
 * UX
@@ -22,23 +22,23 @@ Table of Contents
    
 * Acknowledgements
 
-Features
+## Features
 
-###Existing Features
+### Existing Features
 
 *Quotes Submission Page - Users can submit suggestions
 *Words Per Minute Calculation - Gives users their current typing speed
 *Easy/Hard Modes - Users can progress to using punctuation and capital letters
 
 
-###Features left to Implement
+### Features left to Implement
 
 *Incorrect warning - I want the user input area to turn red when a wrong character is entered
 *Quote Counter - To let the user know how many quotes they have typed
 *Replace Alerts with Modals that are styled in keeping with the site.
 
 
-Technologies Used
+## Technologies Used
 
 * HTML
 
@@ -57,7 +57,7 @@ Technologies Used
 * Jasmine
 
 
-Version Control
+### Version Control
 
 * Git
 
